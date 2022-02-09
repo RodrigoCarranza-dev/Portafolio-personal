@@ -1,7 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;500&family=PT+Serif&display=swap');
 *{
-
+    margin: 0;
+}
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #000000;
+    font-size: 15px;
+    line-height: 1.6em;
 }
 
+.cabecera{
+    background-color: black;
+    color: white;
+    padding: 1.5rem;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+
+}
+.cabecera a{
+    color: white;
+    text-decoration: none;
+}
+.contenedor-cabecera{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#logo{
+    font-family: 'PT Serif', serif;
+    font-weight: bolder;
+    letter-spacing: 2.5px;
+}
+.navegador ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.navegador ul a{
+    display: inline-block;
+}
+.navegador ul a li{
+    display: block;
+    padding: 0.5rem 1rem;
+    transition: all 0.2s linear;
+}
+.navegador ul a li:hover {
+    background: #383737;
+}
+.page-content{
+    padding-top: 8rem;
+}
+
+/*Evaluar si dejar hasta aqui o si hacerlo completamente responsivo.
+Cumplo con los criterios de la clase o es demasiado? Hay forma de hacerlo sin meterme a js?
+*/
+
+/*Recordar solucionar el problema del pading cuando salto entre secciones desde el header*/
 /*
 ███████████████████████████████████
 █░░░░░░░░░░░░░░░░███░░░░░░░░░░░░░░█
