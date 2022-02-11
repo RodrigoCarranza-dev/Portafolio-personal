@@ -58,13 +58,19 @@ body{
     width: 100%;
     height: 85.5vh;
     background-color: #0088C2;
-    background-image: url(https://unsplash.com/photos/hpjSkU2UYSU?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink);
+    background: url("https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=815&q=80") no-repeat fixed center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .display{
     width: 80%;
+    min-height: 80vh;
     max-width: 1000px;
     margin: 0 auto;
-    background-color: aqua;
+    background-color: rgba(14, 13, 13, 0.562);
+    border-radius: 12px;
 }
 
 
