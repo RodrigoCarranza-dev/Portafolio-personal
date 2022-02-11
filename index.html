@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="/Media/icono.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
-    <title>Rodrigo Carranza | Portafolio</title>
+    <title>Rodrigo Carranza | Inicio</title>
 </head>
 <body>
     <div class="cabecera">
@@ -14,13 +14,16 @@
             <a href="#1st-section"><span id="logo">Rodrigo Carranza</span></a> 
             <nav class="navegador">
                 <ul> <!--Evaluar si se vería bien un hover que despliegue el indice de qué contiene cada sección-->
-                    <a href="#1st-section">
-                        <li>Biografía</li>
+                    <a href="index.html">
+                        <li>Inicio</li>
                     </a>
-                    <a href="#2nd-section">
-                        <li>Portafolio</li>
+                    <a href="about.html">
+                        <li>Sobre mí</li>
                     </a>
-                    <a href="#3rd-section">
+                    <a href="portafolio.html">
+                        <li>Servicios y habilidades</li>
+                    </a>
+                    <a href="contacto.html">
                         <li>Contacto</li>
                     </a>
                 </ul>
@@ -28,85 +31,6 @@
         </div>
     </div>
     <div class="page-content">
-        <div class="biografia" id="1st-section">
-            <div class="imagen-biograph">
-                 <!--Foto mia--><!--Evaluar si es viable colocar un srcset. Quiero la misma con diferentes dimensiones o diferentes segun tama;o?-->
-                 <img src="/Media/foto cv.jpg" alt="Fotografía personal"> 
-            </div>
-            <div class="texto-biograph"> 
-                <!--Incluir nombre completo y seccion corta de quien soy-->
-                <h1 id="Nombre"></h1>
-                <p class="parrafo-biograph" id="intro-paragraph">Me caracterizo por orientarme a resultados; pero, a la vez, busco ser empático, leal y honesto. Poseo facilidad de aprendizaje y de trabajo en equipo. Siempre doy todo en cada una de mis experiencias.</p>
-                <p class="parrafo-biograph" id="exp-paragraph">A lo largo de mi experiencia académica y profesional me he desenvuelto en distintas áreas, por ejemplo, en creación de proyectos de robótica y domótica con Arduino, programación de herramientas automatizadas con VBA Excel, auxiliar de contabilidad, entre otras. Esto me ha permitido poder desarrollar una amplia gama de temas de los cuales tomar referencia durante la creación de nuevos proyectos. </p>
-            </div>
-        </div>
-        <div class="portafolio" id="2nd-section">
-            <div class="github">
-                <!--Incluir mi url de github--> <!--Que la imagen sea de "ir a github"-->
-                <a href="https://github.com/RodrigoCarranza-dev"><img src="/Media/github.png" alt=""></a>
-            </div>
-            <div class="trabajos-esen">
-                <!--Mejores trabajos de la ESEN--> <!--Buscar cuales son-->
-            </div>
-            <div class="recomendaciones">
-                <!--Recomendaciones de docentes-->
-                <!--Hacer cards por docentes. Buscar en mis archivos el proyecto de seasons para ver si puedo reutilizar codigo.-->
-                <div class="card" id="">
-                    <div class="top">
-                        <img src="" alt="Foto del docente" id="" class="foto-docente">
-                        <h3 id="card-name"></h3>
-                    </div>
-                    <div class="card-container">
-                        <blockquote class="cita"></blockquote>
-                    </div>
-                </div>
-                <div class="card" id="">
-                    <div class="top">
-                        <img src="" alt="Foto del docente" id="" class="foto-docente">
-                        <h3 id="card-name"></h3>
-                    </div>
-                    <div class="card-container">
-                        <blockquote class="cita"></blockquote>
-                    </div>
-                </div>
-                <div class="card" id="">
-                    <div class="top">
-                        <img src="" alt="Foto del docente" id="" class="foto-docente">
-                        <h3 id="card-name"></h3>
-                    </div>
-                    <div class="card-container">
-                        <blockquote class="cita"></blockquote>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="contacto" id="3rd-section">
-            <!--Recordar incluir un mail to al correo de la esen-->
-            <!--En caso de poner un form para que escriban desde ahi, 
-            recordar poner siempre el correo legible-->
-            <div id="contact-info">
-                <span><b>Teléfono: </b> 78404558</span>
-                <span><b>Correo electrónico: </b> 20200583@esen.edu.sv</span>
-            </div>
-            <div class="formulario">
-                <h3>Escribenos directamente</h3>
-                <form action="" method="post">
-                    <fieldset>
-                        <label for="nombre">Nombre</label>
-                        <input type="text" name="nombre" id="nombre">
-                    </fieldset>
-                    <fieldset>
-                        <label for="correouser">Correo:</label>
-                        <input type="email" name="correouser" id="correouser">
-                    </fieldset>
-                    <fieldset>
-                        <label for="mail-content">Mensaje: </label>
-                        <input type="text" name="mail-content" id="mail-content">
-                    </fieldset>
-                    <input type="submit" value="Enviar">
-                </form>
-            </div>
-        </div>
     </div>
 </body>
 </html>
