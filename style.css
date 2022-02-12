@@ -113,18 +113,38 @@ body{
     margin: 15px;
 }
 .card-about{
-    height: 240px;
+    height: 260px;
     width: 200px;
     background-color: #d8d8d8;
     border-radius: 15px;
     color: #000000;
     margin: 5px;
 }
-
-.card-container blockquote{
+.top{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+.foto-docente{
+    height: 80px;
+    width: auto;
+    border-radius: 100% ;
+    align-self: center;
+}
+.card-name {
+    font-size: 12px;
+    font-weight: bold;
+    color: black;
+    font-style: none;
+    margin-left: 15px;
+    width: 100%;
+}
+.card-container p, span{
     color: #000000;
-    font-style: italic;
-    margin: 5px 15px;
+    font-style: normal;
+    font-size: 12px;
+    margin:  0 15px;
 }
 /*
 ███████████████████████████████████
