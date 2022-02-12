@@ -211,6 +211,35 @@ h1{
     height: auto;
 }
 
+
+/*Estilos para pagina de inicio*/
+.disp-index{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+#welcome{
+    color: white;
+    font-size: 40px;
+    font-weight: bolder;
+    margin: 20px;
+}
+.disp-index h1{
+    color: white;
+    font-size: 20px;
+    font-weight: 200;
+    margin: 20px;
+}
+.disp-index p{
+    width: 80%;
+    margin: 15px;
+}
+.disp-index p a {
+    font-style: none;
+    font-weight: bolder;
+}
 /*
 ███████████████████████████████████
 █░░░░░░░░░░░░░░░░███░░░░░░░░░░░░░░█
