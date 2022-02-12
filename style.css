@@ -115,7 +115,7 @@ body{
 .card-about{
     height: 260px;
     width: 200px;
-    background-color: #d8d8d8;
+    background-color: #d8d8d8a1;
     border-radius: 15px;
     color: #000000;
     margin: 5px;
@@ -142,6 +142,7 @@ body{
     font-weight: bold;
     color: black;
     font-style: none;
+    text-decoration: none;
     margin-left: 15px;
     width: 100%;
 }
@@ -219,6 +220,7 @@ h1{
     flex-wrap: nowrap;
     justify-content: center;
     align-items: center;
+
 }
 #welcome{
     color: white;
@@ -239,6 +241,41 @@ h1{
 .disp-index p a {
     font-style: none;
     font-weight: bolder;
+}
+
+/*Estilos para portafolio*/
+
+.disp-port{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+.contenedor-portafolios{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: space-around;
+    justify-content: center; 
+    width: 100%;  
+}
+.cuadrito{
+    width: 300px;
+    background-color: #0000009d;
+    margin: 15px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 15px;
+}
+.cuadrito h2{
+    margin-top: 10px;
+    text-align: center;
+}
+.cuadrito ul{
+    margin: 15px;
 }
 /*
 ███████████████████████████████████
